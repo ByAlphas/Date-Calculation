@@ -6,7 +6,7 @@
 - [x] Güncelleme arada sırada gelebilir. 
 
 
-### Botu nasıl başlatacağım?
+### Altyapıyı Nasıl Kullanacağım?
 
 - [NOT] Altyapı Hakkında Bilginiz Yoksa Kodları Ellemeyin.
 
