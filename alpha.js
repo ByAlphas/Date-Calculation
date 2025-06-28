@@ -3,7 +3,7 @@ function calculateDateDifference() {
     var endDate = document.getElementById("end-date").value;
 
     if (document.getElementById("start-date").value === "" || (endDate === "" && !document.getElementById("today-date").checked)) {
-        document.getElementById("result").innerHTML = "Hop! Hemşerim, Geçerli Tarihler Gir.";
+        document.getElementById("result").innerHTML = "Oops! Please enter valid dates.";
         return;
     }
 
@@ -14,7 +14,7 @@ function calculateDateDifference() {
     }
 
     if (isNaN(startDate.getTime()) || isNaN(endDate.getTime())) {
-        document.getElementById("result").innerHTML = "Geçersiz Tarihler Girmiş Bulunmaktasınız.";
+        document.getElementById("result").innerHTML = "Invalid dates entered.";
         return;
     }
 
@@ -35,17 +35,17 @@ function calculateDateDifference() {
 
     var result = "";
     if (isNaN(diffYears) || isNaN(diffMonths) || isNaN(diffDays)) {
-        result = "Geçersiz Tarihler Girmiş Bulunmaktasınız.";
+        result = "Invalid dates entered.";
     } else {
-        result = "Aradaki süre: ";
+        result = "Time between dates: ";
         if (diffYears > 0) {
-            result += diffYears + " yıl, ";
+            result += diffYears + " year(s), ";
         }
         if (diffMonths > 0) {
-            result += diffMonths + " ay, ";
+            result += diffMonths + " month(s), ";
         }
         if (diffDays > 0) {
-            result += diffDays + " gün";
+            result += diffDays + " day(s)";
         }
     }
 
