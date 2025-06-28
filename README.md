@@ -1,13 +1,20 @@
-![](https://i.imgur.com/i42Jz95.png)
+# Alpha Date Calculator
 
-## Sürüm Desteği
+**Alpha Date Calculator** is a lightweight, browser-based application designed to calculate the time difference between two dates. It supports custom date ranges or allows you to calculate up to today's date with a single click.
 
-- [x] Mevcut Sürüm V1.2'dir. V1.0 & V1.1 Sürümleri Paylaşılmayacaktır.
-- [x] Güncelleme arada sırada gelebilir. 
+## 🧠 Key Features
 
+- Choose a start date and end date from intuitive input fields
+- Optional checkbox to set the end date as today
+- Accurate breakdown of the difference in **years**, **months**, and **days**
+- Minimalist dark theme (our favorite 😉)
+- Built entirely with **HTML**, **CSS**, and **JavaScript** — no libraries required!
 
-### Altyapıyı Nasıl Kullanacağım?
+## 🚀 Getting Started
 
-- [NOT] Altyapı Hakkında Bilginiz Yoksa Kodları Ellemeyin.
+1. Clone or download the project.
+2. Open `alpha.html` in your browser.
+3. Select the desired dates and press **Calculate**.
 
-- [START] alpha.html > Çift Sol Click > İyi Kullanımlar :)
+#
+
