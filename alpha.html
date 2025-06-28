@@ -3,32 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alpha Tarih Hesaplama A.Ş</title>
-    <link rel="stylesheet" href="styles-alpha.css"> <!-- Siyah Tema Benim Favorim :D -->
+    <title>Alpha Date Calculator</title>
+    <link rel="stylesheet" href="styles-alpha.css"> <!-- Black Theme is My Favorite :D -->
 </head>
 <body>
     <div class="container">
-        <h1>Alpha Tarih Hesaplama A.Ş</h1>
+        <h1>Alpha Date Calculator</h1>
 
         <div class="date-input">
-            <label for="start-date">Başlangıç Tarihi:</label>
+            <label for="start-date">Start Date:</label>
             <input type="date" id="start-date">
         </div>
 
         <div class="date-input">
-            <label for="end-date">Bitiş Tarihi:</label>
+            <label for="end-date">End Date:</label>
             <input type="date" id="end-date">
         </div>
 
         <div class="today-checkbox">
             <input type="checkbox" id="today-date" onchange="toggleEndDate()">
-            <label for="today-date">Bugün?</label>
+            <label for="today-date">Today?</label>
         </div>
 
-        <button onclick="calculateDateDifference()">Hesapla</button>
+        <button onclick="calculateDateDifference()">Calculate</button>
 
         <div id="result" class="result"></div>
     </div>
+
+    <footer style="text-align:center; font-size: 0.85em; color: #888; margin-top: 40px;">
+    © 2025 Alpha Date Calculator - Created by Alpha
+    </footer>
+
 
     <script src="alpha.js"></script>
 </body>
