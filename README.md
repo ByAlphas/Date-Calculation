@@ -1,6 +1,6 @@
-# Alpha Date Calculator
+# Date Calculator
 
-**Alpha Date Calculator** is a lightweight, browser-based application designed to calculate the time difference between two dates. It supports custom date ranges or allows you to calculate up to today's date with a single click.
+**Date Calculator** is a lightweight, browser-based application designed to calculate the time difference between two dates. It supports custom date ranges or allows you to calculate up to today's date with a single click.
 
 ## 🧠 Key Features
 
